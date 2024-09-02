@@ -1,9 +1,5 @@
 <template>
-
-    <p>er</p>
-    <p>y</p>
-    <img src="../image/pexels-nicolas-diaz-66355688-14346586.jpg" alt="">
-  
+<h1>This is home</h1>
 </template>
 
 <script setup>
