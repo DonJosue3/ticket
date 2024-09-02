@@ -5,28 +5,31 @@ import Search from '../views/SearchPage.vue';
 import Calendar from '../views/CalendarPage.vue';
 import Ticket from '../views/TicketPage.vue';
 
-const routes= [
- 
+const routes = [
+  {
+    path: '/',
+    redirect: '/home'
+  },
   {
     path: '/home',
     name: 'Home',
     component: HomePage
-  },{
-    path:'/login',
-    name:'Login',
-    component:LoginPage
-  },{
-    path:'/search',
-    name:'Search',
-    component:Search
-  },{
-    path:'/calendar',
-    name:'Calendar',
-    component:Calendar
-  },{
-    path:'/ticket',
-    name:'Ticket',
-    component:Ticket
+  }, {
+    path: '/login',
+    name: 'Login',
+    component: LoginPage
+  }, {
+    path: '/search',
+    name: 'Search',
+    component: Search
+  }, {
+    path: '/calendar',
+    name: 'Calendar',
+    component: Calendar
+  }, {
+    path: '/ticket',
+    name: 'Ticket',
+    component: Ticket
   }
 ]
 
