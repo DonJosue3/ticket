@@ -19,7 +19,7 @@ const routes= [
     name:'Login',
     component:LoginPage
   },{
-    path:'/search',
+    path:'ticket-pr32.onrender.com/search/search',
     name:'Search',
     component:Search
   },{
