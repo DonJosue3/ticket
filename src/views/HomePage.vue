@@ -3,7 +3,6 @@
 </template>
 
 <script setup>
-import { IonPage} from '@ionic/vue';
 </script>
 
 <style scoped>

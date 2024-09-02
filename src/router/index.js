@@ -1,15 +1,12 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import HomePage from '../views/HomePage.vue'
 import LoginPage from '../views/LoginPage.vue';
-import Search from '../views/Search.vue';
-import Calendar from '../views/Calendar.vue';
-import Ticket from '../views/Ticket.vue';
+import Search from '../views/SearchPage.vue';
+import Calendar from '../views/CalendarPage.vue';
+import Ticket from '../views/TicketPage.vue';
 
 const routes= [
-  {
-    path: '/',
-    redirect: '/home'
-  },
+ 
   {
     path: '/home',
     name: 'Home',
@@ -19,7 +16,7 @@ const routes= [
     name:'Login',
     component:LoginPage
   },{
-    path:'ticket-pr32.onrender.com/search',
+    path:'/search',
     name:'Search',
     component:Search
   },{
